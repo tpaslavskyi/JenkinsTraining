@@ -22,4 +22,10 @@ public class SimpleTests {
         var  booleanValue = true;
         Assertions.assertTrue(booleanValue);
     }
+
+    @Test
+    void assertDouble() {
+        var doubleValue = 2.5;
+        Assertions.assertEquals(doubleValue, 2.5);
+    }
 }
