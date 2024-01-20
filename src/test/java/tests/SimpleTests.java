@@ -19,7 +19,7 @@ public class SimpleTests {
 
     @Test
     void assertBoolean() {
-        var  booleanValue = true;
+        var  booleanValue = false;
         Assertions.assertTrue(booleanValue);
     }
 
