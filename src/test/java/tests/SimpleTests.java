@@ -3,7 +3,7 @@ package tests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class LoginTest {
+public class SimpleTests {
 
     @Test
     void assertText() {
