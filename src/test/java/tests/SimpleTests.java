@@ -28,4 +28,10 @@ public class SimpleTests {
         var doubleValue = 2.5;
         Assertions.assertEquals(doubleValue, 2.5);
     }
+
+    @Test
+    void assertTextInCapitalCases() {
+        var text = "HELLO WORLD";
+        Assertions.assertEquals(text, "HELLO WORLD");
+    }
 }
