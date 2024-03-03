@@ -34,4 +34,11 @@ public class SimpleTests {
         var text = "HELLO WORLD";
         Assertions.assertEquals(text, "HELLO WORLD");
     }
+
+    @Test
+    void assertCalculation() {
+        int firstValue = 5;
+        int secondValue = 10;
+        Assertions.assertEquals(firstValue + secondValue, 15);
+    }
 }
